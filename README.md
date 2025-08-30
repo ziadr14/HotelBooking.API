@@ -114,60 +114,6 @@ It also includes:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/ziadr14/HotelBooking.API.git
-HotelBookingAPI/
-│── HotelBookingAPI/                 # API Layer
-│   ├── Controllers/
-│   │   └── HotelsController.cs
-│   │   └── RoomsController.cs
-│   │   └── CustomersController.cs
-│   │   └── ReservationsController.cs
-│   ├── DTOs/
-│   │   └── HotelDto.cs
-│   │   └── RoomDto.cs
-│   │   └── CustomerDto.cs
-│   │   └── ReservationDto.cs
-│   ├── Program.cs
-│
-│── HotelBookingBLL/                 # Business Logic Layer
-│   ├── Interfaces/
-│   │   └── IHotelService.cs
-│   │   └── IRoomService.cs
-│   │   └── ICustomerService.cs
-│   │   └── IReservationService.cs
-│   ├── Services/
-│   │   └── HotelService.cs
-│   │   └── RoomService.cs
-│   │   └── CustomerService.cs
-│   │   └── ReservationService.cs
-│   ├── DTOs/
-│   ├── Mappings/
-│   │   └── AutoMapperProfile.cs
-│
-│── HotelBookingDAL/                 # Data Access Layer
-│   ├── Models/
-│   │   └── Hotel.cs
-│   │   └── Room.cs
-│   │   └── Customer.cs
-│   │   └── Reservation.cs
-│   ├── Interfaces/
-│   │   └── IBaseRepository.cs
-│   │   └── IHotelRepository.cs
-│   │   └── IRoomRepository.cs
-│   │   └── ICustomerRepository.cs
-│   │   └── IReservationRepository.cs
-│   ├── Repositories/
-│   │   └── BaseRepository.cs
-│   │   └── HotelRepository.cs
-│   │   └── RoomRepository.cs
-│   │   └── CustomerRepository.cs
-│   │   └── ReservationRepository.cs
-│   │   └── UnitOfWork.cs
-│   ├── Data/
-│   │   └── AppDbContext.cs
-│   └── Migrations/
-│
-└── HotelBookingAPI.sln
-
 
 ## Project Structure
 ```bash
